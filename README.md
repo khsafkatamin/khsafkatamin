@@ -40,7 +40,7 @@ I’m passionate about shaping the future of mobility through research and devel
   </a>
 
   <!-- Discord -->
-  <a target="_blank" href="https://discordapp.com/users/your-discord-id" style="display: inline-block;">
+  <a target="_blank" href="https://discordapp.com/users/847189190601211954" style="display: inline-block;">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   
