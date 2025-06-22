@@ -1,4 +1,4 @@
-## Hi 👋, I'm Safkat
+### Hi 👋, I'm Safkat
 
 An automotive engineer with a strong passion for automated driving and vehicle intelligence. My interests lie in vehicle perception, motion planning, and Software-in-the-Loop (SiL) simulation. I recently completed my Master’s in Automotive Engineering from RWTH Aachen University and am actively seeking opportunities in automotive research and development.
 
