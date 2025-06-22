@@ -1,20 +1,24 @@
-<h2>Hi 👋, I'm Safkat, an automotive researcher and developer </h2>
-<p>
-I’m passionate about shaping the future of mobility through research and development in automated driving systems, robotics, and AI. I enjoy building intelligent, real-world solutions that blend engineering with cutting-edge technologies.
-</p>
+## Hi 👋, I'm Safkat
+
+An automotive engineer with a strong passion for automated driving and vehicle intelligence. My interests lie in vehicle perception, motion planning, and Software-in-the-Loop (SiL) simulation. I recently completed my Master’s in Automotive Engineering from RWTH Aachen University and am actively seeking opportunities in automotive research and development.
+
+Below are some of the key projects I worked on during my master’s program.
+
 
 ## 🔭 Projects
 # 1. Master’s Dissertation
+📄 *Thesis Title: Development of a Framework for Harmonization, Enrichment, and Classification of Behavior Data*
+
 Repository: *(Private Repository)*
 
-Understanding the influence of environmental factors—like road geometry, traffic density, and weather—is essential for developing safe and intelligent automated driving systems. However, existing behavioral datasets often differ in structure and lack this crucial contextual data. This thesis proposes a unified framework to harmonize diverse datasets and systematically enrich them with structured environmental information, enabling more holistic behavior analysis for automated driving.
+Understanding the influence of environmental factors—like road geometry, traffic density, and weather—on driving behavior is essential for developing safe and intelligent automated driving systems. However, existing driving behavior datasets often differ in structure and lack contextual data. This thesis develops a framework to harmonize diverse road user behavior datasets and systematically enrich them with environmental information, enabling more holistic behavior analysis for automated driving. The framework stores environmental context in a structured format based on the 6-Layer Model, allowing modular development, efficient querying, and future expansion within a centralized database.
 
-As an example of the enrichment process, the image below illustrates the annotation of road network objects in the **TUMDOT–MUC** dataset. The blue rectangle represents the observed area, while the orange boundaries indicate the extracted junctions. Road user trajectories within the junction area (marked in green) and outside the junctions (marked in grey) are classified and enriched with corresponding road network object details.
+As an example of one of the enrichment processes, the image below illustrates the extraction of road network objects in the **TUMDOT–MUC** dataset. The blue rectangle represents the observed area, while the orange boundaries indicate the extracted junctions. Road user trajectories within the junction area (marked in green) and outside the junctions (marked in grey) are classified and enriched with corresponding road network object details.
 
 The framework is designed to perform such enrichment automatically and can generalize to any trajectory dataset.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/22bcb596-d27b-465a-9d83-4307ed484ca8" width="900"/>
+  <img src="https://github.com/user-attachments/assets/22bcb596-d27b-465a-9d83-4307ed484ca8" width="800"/>
 </div>
 
 
@@ -63,29 +67,12 @@ These personalized responses were integrated into an **interactive chatbot inter
 <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42" /></a>
 <a target="_blank" href="https://www.ros.org/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ros/ros-original.svg" alt="ros" width="42" height="42" /></a></p>
 
+## ⚡️ Where to find me
 
-<h2>⚡️ Where to find me</h2>
-<p>
-  <!-- LinkedIn -->
-  <a target="_blank" href="https://www.linkedin.com/in/khsafkatamin" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/LinkedIn-%230a77b6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+- **LinkedIn:** [linkedin.com/in/khsafkatamin](https://www.linkedin.com/in/khsafkatamin)  
+- **Email:** [safkat.amin@rwth-aachen.de](mailto:safkat.amin@rwth-aachen.de)
 
-  <!-- Email -->
-  <a target="_blank" href="mailto:safkat.amin@rwth-aachen.de" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-
-  <!-- Discord -->
-  <a target="_blank" href="https://discordapp.com/users/847189190601211954" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  
-  <!-- Portfolio -->
-  <a target="_blank" href="https://khsafkatamin.github.io" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Portfolio-121212?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+Thanks for stopping by! Feel free to connect or reach out — I'm always happy to talk about projects, research, or opportunities in the field of automated driving.
 
 
 
