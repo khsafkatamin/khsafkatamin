@@ -3,13 +3,50 @@
 I’m passionate about shaping the future of mobility through research and development in automated driving systems, robotics, and AI. I enjoy building intelligent, real-world solutions that blend engineering with cutting-edge technologies.
 </p>
 
-###
+## 🔭 Projects
+# 1. Master’s Dissertation
+Repository: *(Private Repository)*
+
+Understanding the influence of environmental factors—like road geometry, traffic density, and weather—is essential for developing safe and intelligent automated driving systems. However, existing behavioral datasets often differ in structure and lack this crucial contextual data. This thesis proposes a unified framework to harmonize diverse datasets and systematically enrich them with structured environmental information, enabling more holistic behavior analysis for automated driving.
+
+As an example of the enrichment process, the image below illustrates the annotation of road network objects in the **TUMDOT–MUC** dataset. The blue rectangle represents the observed area, while the orange boundaries indicate the extracted junctions. Road user trajectories within the junction area (marked in green) and outside the junctions (marked in grey) are classified and enriched with corresponding road network object details.
+
+The framework is designed to perform such enrichment automatically and can generalize to any trajectory dataset.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khsafkatamin&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khsafkatamin&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=khsafkatamin&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5" height="150" alt="khsafkatamin's streak"  />
+  <img src="https://github.com/user-attachments/assets/22bcb596-d27b-465a-9d83-4307ed484ca8" width="900"/>
 </div>
+
+
+# 2. Traffic Light Detection
+Repository: [Traffic-Light-Detection](https://github.com/ika-rwth-aachen/acdc-research-projects/tree/main/reports/05-Traffic-Light-Detection/2023-09_Amin)
+
+As part of the *Automated and Connected Driving Challenges – Research Project*, this work explores onboard camera-based traffic light detection—a critical capability when V2X (Vehicle-to-Everything) support is unavailable. 
+
+To investigate this, I fine-tuned a YOLOv5 model using the **BSTLD** and **DTLD** datasets for traffic light detection. The experimental setup was modeled after this [paper](https://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Bachelor-theses/2020/Hein/), in which the author trained SSD MobileNet v1 and Faster R-CNN Inception v2.
+
+The results demonstrated that **YOLOv5 outperformed** both SSD MobileNet and Faster R-CNN models in terms of detection performance for this scenario.
+
+Furthermore, the project emphasizes the importance of adapting perception systems to **geographical differences in traffic infrastructure**, as shown through cross-dataset evaluations.
+
+Below are example detection results from each dataset:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/86038a5e-05a5-4d3b-92af-4f62fcdf4c29" width="45%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/4e974924-ec9d-4d59-8361-d11adade1b52" width="45%"/>
+</div>
+
+# 3. Generative AI Hackathon – EESTECH Challenge Aachen  
+Repository: [Customer Experience Enhancement with Public Data and Generative AI](https://github.com/mechgguy/eestech-hackathon)
+
+As part of the **EESTECH Challenge Aachen**, this project aimed to enhance customer satisfaction using generative AI by analyzing GitHub issues from Infineon’s public repositories.
+
+Due to the high volume of technical queries and inconsistent response styles from contributors, ensuring a consistent and user-friendly experience was a challenge. Our solution involved developing a feedback generation system powered by a large language model, which generated responses to each GitHub issue from **three distinct AI personas**—each reflecting a unique communication style, ranging from **highly technical** to **empathetic**.
+
+These personalized responses were integrated into an **interactive chatbot interface**, helping users receive support that aligns with their needs and preferences.
+
+This innovative approach to AI-driven customer interaction earned our team **second place** in the competition.
+
 
 <h2>🚀 Languages and Tools I Use</h2>
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
@@ -51,21 +88,4 @@ I’m passionate about shaping the future of mobility through research and devel
 </p>
 
 
-###
-![](https://komarev.com/ghpvc/?username=khsafkatamin)
 
-  ###
-  <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-</picture>
