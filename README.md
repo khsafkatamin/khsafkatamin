@@ -37,6 +37,8 @@ Below are example detection results from each dataset:
 </div>
 
 # 3. Generative AI Hackathon – EESTECH Challenge Aachen  
+🏆 **2nd Place Winner**  
+
 Repository: [Customer Experience Enhancement with Public Data and Generative AI](https://github.com/mechgguy/eestech-hackathon)
 
 As part of the **EESTECH Challenge Aachen**, this project aimed to enhance customer satisfaction using generative AI by analyzing GitHub issues from Infineon’s public repositories.
@@ -44,8 +46,6 @@ As part of the **EESTECH Challenge Aachen**, this project aimed to enhance custo
 Due to the high volume of technical queries and inconsistent response styles from contributors, ensuring a consistent and user-friendly experience was a challenge. Our solution involved developing a feedback generation system powered by a large language model, which generated responses to each GitHub issue from **three distinct AI personas**—each reflecting a unique communication style, ranging from **highly technical** to **empathetic**.
 
 These personalized responses were integrated into an **interactive chatbot interface**, helping users receive support that aligns with their needs and preferences.
-
-This innovative approach to AI-driven customer interaction earned our team **second place** in the competition.
 
 
 <h2>🚀 Languages and Tools I Use</h2>
